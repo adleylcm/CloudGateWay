@@ -1,0 +1,1058 @@
+[ 2013-11-08T09:24:01+08:00 ] 192.168.3.25 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000576s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000387s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000335s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015561s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000185s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2013-11-08T09:24:04+08:00 ] 192.168.3.25 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000537s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000412s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000336s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015597s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2013-11-08T09:24:43+08:00 ] 192.168.3.25 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000584s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000387s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000104s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000336s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015443s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2013-11-08T09:30:06+08:00 ] 192.168.3.25 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000590s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000387s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000337s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000088s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000177s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000165s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000279s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2013-11-08T09:41:31+08:00 ] 192.168.3.25 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000577s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000387s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000106s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000336s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 235 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 1 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 289 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000186s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000283s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2013-11-08T09:49:50+08:00 ] 192.168.3.228 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000601s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000383s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000335s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015260s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000194s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000286s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2013-11-08T16:25:48+08:00 ] 192.168.3.151 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000601s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000388s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000111s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000337s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000109s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 236 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 237 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 238 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 239 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 240 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 241 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 242 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 243 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 244 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 245 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 246 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 247 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 2 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 290 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 3 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 291 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 4 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 292 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 5 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 293 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 6 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 294 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 7 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 295 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 8 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 296 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 9 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 297 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 10 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 298 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 11 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 299 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 12 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 300 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+NOTIC: [8] Undefined offset: 13 /home/wwwroot/default/wangpan/StatAnal/Runtime/Cache/a8ca3d900eb6ed5b465c7377d357880f.php 第 301 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015590s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000195s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000289s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000329s ]
+

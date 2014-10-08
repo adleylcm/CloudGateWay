@@ -1,0 +1,104 @@
+<form action="{:U('Index/confModify')}" method="post">
+	<table>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+            <td></td>
+            <td class="width:20px">
+             自动转存执行时间：星期
+             <select name="selectTag1" id="selectTag1">
+              <option value="1">一</option>
+              <option value="2">二</option>
+              <option value="3">三</option>
+              <option value="4">四</option>
+              <option value="5">五</option>
+              <option value="6">六</option>
+              <option value="0">日</option>           
+             </select> 
+             <select name="selectTag2" id="selectTag2">
+              <option value="0">上午</option>
+              <option value="1">下午</option>
+             </select>
+             <select name="selectTag3" id="selectTag3">
+              <option value="0">0:00</option>             
+              <option value="1">1:00</option>
+              <option value="2">2:00</option>
+              <option value="3">3:00</option>
+              <option value="4">4:00</option>
+              <option value="5">5:00</option>
+              <option value="6">6:00</option>
+              <option value="7">7:00</option>
+              <option value="8">8:00</option>
+              <option value="9">9:00</option>
+              <option value="10">10:00</option>
+              <option value="11">11:00</option>              
+             </select>  
+            </td>            
+            <td></td>
+        </tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width:50px;"></td>
+			<td><input type="checkbox" name="policyfsize" id="policyfsize"/> 文件大小阈值 &nbsp;&nbsp;&nbsp;<input type="text" name="pconfsize" style="width:40px;" value="{$fileSize0}" style="text-align:left; width:180px; height:20px; font-size:10pt;"/> MB </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(大小大于阈值的本地文件, 将被转存至云存储)<br /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+						
+		<!-- <tr>
+			<td></td>
+			<td><input type="checkbox" name="policyftype" id="policyftype"/> 特定文件类型 &nbsp;&nbsp;&nbsp;<input type="text" name="pconftype" value="{$fileType0}" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(指定的文件类型, 不列入上传白名单)<br /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr> -->
+						
+		<tr>
+			<td></td>
+			<td><input type="checkbox" name="policyexpires" id="policyexpires"/> 访问时间阈值 &nbsp;&nbsp;&nbsp;<input type="text" name="pconexpires" style="width:40px;" value="{$expires0}" style="text-align:left; width:180px; height:20px; font-size:10pt;"/>天</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(最后访问时间超过阈值的本地文件, 将被转存至云存储)<br /></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+						
+		<tr>
+			<td></td>
+			<td><input type="checkbox" name="policyfreq" id="policyfreq"/> 使用频率阈值 &nbsp;&nbsp;&nbsp;<input type="text" name="pconfreq"  style="width:40px;" value="{$freq0}" style="text-align:left; width:180px; height:20px; font-size:10pt;"/>次/周</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(使用频率少于阈值的本地文件, 将被转存至云存储)</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+        
+        
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td style="text-align:center">
+				<button type="submit" class="btn_ql btn_ql-primary " style="text-align:center">保存</button>
+	  		</td>
+		</tr>
+	</table>
+</form>

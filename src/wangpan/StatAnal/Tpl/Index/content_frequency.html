@@ -1,0 +1,120 @@
+<!-- 转存频度 -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    google.load('visualization', '1', {packages: ['corechart']});
+</script>
+<script type="text/javascript">
+  //转存数量图表
+	function dateCntChartDraw() {
+    //读取数据库数据
+    var freCNTDataDB = [
+     ['日期', '转存总数/个',  '上传数量/个', '下载数量/个'],    
+     ['{$frqData[7]['date']}',  {$frqData[7]['uploadCNT']}+{$frqData[7]['downloadCNT']},{$frqData[7]['uploadCNT']}, {$frqData[7]['downloadCNT']}],
+     ['{$frqData[6]['date']}',  {$frqData[6]['uploadCNT']}+{$frqData[6]['downloadCNT']},{$frqData[6]['uploadCNT']}, {$frqData[6]['downloadCNT']}],
+     ['{$frqData[5]['date']}',  {$frqData[5]['uploadCNT']}+{$frqData[5]['downloadCNT']},{$frqData[5]['uploadCNT']}, {$frqData[5]['downloadCNT']}],
+     ['{$frqData[4]['date']}',  {$frqData[4]['uploadCNT']}+{$frqData[4]['downloadCNT']},{$frqData[4]['uploadCNT']}, {$frqData[4]['downloadCNT']}],  
+     ['{$frqData[3]['date']}',  {$frqData[3]['uploadCNT']}+{$frqData[3]['downloadCNT']},{$frqData[3]['uploadCNT']}, {$frqData[3]['downloadCNT']}],
+     ['{$frqData[2]['date']}',  {$frqData[2]['uploadCNT']}+{$frqData[2]['downloadCNT']},{$frqData[2]['uploadCNT']}, {$frqData[2]['downloadCNT']}], 
+     ['{$frqData[1]['date']}',  {$frqData[1]['uploadCNT']}+{$frqData[1]['downloadCNT']},{$frqData[1]['uploadCNT']}, {$frqData[1]['downloadCNT']}],
+     ['{$frqData[0]['date']}',  {$frqData[0]['uploadCNT']}+{$frqData[0]['downloadCNT']},{$frqData[0]['uploadCNT']}, {$frqData[0]['downloadCNT']}],  
+    ];
+
+    var data = google.visualization.arrayToDataTable(freCNTDataDB);
+    
+    //图表参数
+    var options = {
+      title : '转存文件数量分析',
+      vAxis: {title: "文件数"},
+      hAxis: {
+        title: "日期",
+        showTextEvery: 2,
+        textStyle:{ 
+              bold: false,
+              italic: false },
+      },
+      colors:['#D9655D',
+              '#0B9DEC',
+              '#FADC42'],
+      height: 400,
+      width:  1200,
+      chartArea:{
+          width:"50%",
+          height:"70%",
+      },
+      seriesType: "bars",
+      series: {
+      		// 1: {type: "line"},
+      		// 2: {type: "line"}
+  		}
+    };
+
+    var chart = new google.visualization.ComboChart(document.getElementById('dateCntChart'));
+    chart.draw(data, options);
+  }
+
+  //转存大小图表
+  function dateVolumeChartDraw() {
+    //读取数据库数据    
+    var freVolumeDataDB = [
+    ['日期', '转存总数/字节',  '上传大小/字节', '下载大小/字节'],
+    ['{$frqData[7]['date']}',{$frqData[7]['uploadSize']}+{$frqData[7]['downloadSize']},{$frqData[7]['uploadSize']},{$frqData[7]['downloadSize']}],
+    ['{$frqData[6]['date']}',{$frqData[6]['uploadSize']}+{$frqData[6]['downloadSize']},{$frqData[6]['uploadSize']},{$frqData[6]['downloadSize']}],
+    ['{$frqData[5]['date']}',{$frqData[5]['uploadSize']}+{$frqData[5]['downloadSize']},{$frqData[5]['uploadSize']},{$frqData[5]['downloadSize']}],
+    ['{$frqData[4]['date']}',{$frqData[4]['uploadSize']}+{$frqData[4]['downloadSize']},{$frqData[4]['uploadSize']},{$frqData[4]['downloadSize']}],
+    ['{$frqData[3]['date']}',{$frqData[3]['uploadSize']}+{$frqData[3]['downloadSize']},{$frqData[3]['uploadSize']},{$frqData[3]['downloadSize']}],  
+    ['{$frqData[2]['date']}',{$frqData[2]['uploadSize']}+{$frqData[2]['downloadSize']},{$frqData[2]['uploadSize']},{$frqData[2]['downloadSize']}],
+    ['{$frqData[1]['date']}',{$frqData[1]['uploadSize']}+{$frqData[1]['downloadSize']},{$frqData[1]['uploadSize']},{$frqData[1]['downloadSize']}],
+    ['{$frqData[0]['date']}',{$frqData[0]['uploadSize']}+{$frqData[0]['downloadSize']},{$frqData[0]['uploadSize']},{$frqData[0]['downloadSize']}]
+    ];
+
+    var data = google.visualization.arrayToDataTable(freVolumeDataDB);
+
+    //图表参数
+    var options = {
+      title : '转存文件大小分析',
+      vAxis: {title: "数据大小"},
+      hAxis: {
+        title: "日期",
+        showTextEvery: 2,
+        textStyle:{ 
+              bold: false,
+              italic: false },
+      },
+      height: 400,
+      width:  1200,
+      chartArea:{
+          width:"50%",
+          height:"70%",
+      },
+      colors:['#D9655D',
+              '#0B9DEC',
+              '#FADC42'],
+      seriesType: "bars",
+      series: {
+          // 1: {type: "line"},
+          // 2: {type: "line"}
+      }
+    };
+
+    var chart = new google.visualization.ComboChart(document.getElementById('dateVolumeChart'));
+    chart.draw(data, options);
+  }
+  google.setOnLoadCallback(dateCntChartDraw);
+  google.setOnLoadCallback(dateVolumeChartDraw);
+</script>
+
+<table style="margin-left: auto; margin-right: auto;">
+<tbody>
+	<tr>
+		<div id="dateCntChart" style="display: block; margin-left: auto; margin-right: auto;"></div>
+	</tr>
+
+  <tr>&nbsp;</tr>
+  <tr>&nbsp;</tr>
+  <tr>&nbsp;</tr>
+
+	<tr>
+    <div id="dateVolumeChart" style="display: block; margin-left: auto; margin-right: auto;"></div>
+  </tr>
+</tbody>
+</table>

@@ -1,0 +1,1253 @@
+[ 2013-11-14T10:05:31+08:00 ] 192.168.3.139 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000647s ]
+SQL: SELECT * FROM `translog` ORDER BY tdate desc  [ RunTime:0.000385s ]
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: fid /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `fileinfo` [ RunTime:0.000692s ]
+SQL: SELECT * FROM `fileinfo` WHERE ( fpid=1 )  [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 364 行.
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 381 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined index: zhuancunFlag /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 793 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022652s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022702s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001136s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002100s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000321s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2013-11-14T10:05:53+08:00 ] 192.168.3.139 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000627s ]
+SQL: SELECT * FROM `translog` ORDER BY tdate desc  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000507s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: fid /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `fileinfo` [ RunTime:0.000700s ]
+SQL: SELECT * FROM `fileinfo` WHERE ( fpid=1 )  [ RunTime:0.000240s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 364 行.
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 381 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined index: zhuancunFlag /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 793 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022681s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001142s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000310s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000349s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2013-11-14T10:11:25+08:00 ] 192.168.3.25 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000633s ]
+SQL: SELECT * FROM `translog` ORDER BY tdate desc  [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000535s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: fid /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `fileinfo` [ RunTime:0.000698s ]
+SQL: SELECT * FROM `fileinfo` WHERE ( fpid=1 )  [ RunTime:0.000241s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 364 行.
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 381 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined index: zhuancunFlag /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 793 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022565s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001153s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000311s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002123s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2013-11-14T10:26:12+08:00 ] 192.168.3.228 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000673s ]
+SQL: SELECT * FROM `translog` ORDER BY tdate desc  [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000521s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: fid /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `fileinfo` [ RunTime:0.000703s ]
+SQL: SELECT * FROM `fileinfo` WHERE ( fpid=1 )  [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 364 行.
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 381 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined index: zhuancunFlag /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 793 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002184s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000351s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2013-11-14T10:33:47+08:00 ] 192.168.3.25 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000616s ]
+SQL: SELECT * FROM `translog` ORDER BY tdate desc  [ RunTime:0.000375s ]
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000504s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: fid /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `fileinfo` [ RunTime:0.000696s ]
+SQL: SELECT * FROM `fileinfo` WHERE ( fpid=1 )  [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 364 行.
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 381 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined index: zhuancunFlag /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 793 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022687s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001153s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000309s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002128s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000350s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2013-11-14T10:34:31+08:00 ] 192.168.3.139 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000625s ]
+SQL: SELECT * FROM `translog` ORDER BY tdate desc  [ RunTime:0.000377s ]
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000505s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000127s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: fid /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `fileinfo` [ RunTime:0.000691s ]
+SQL: SELECT * FROM `fileinfo` WHERE ( fpid=1 )  [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 364 行.
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 381 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined index: zhuancunFlag /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 793 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022554s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001135s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000106s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002126s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000341s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2013-11-14T10:42:07+08:00 ] 192.168.3.228 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000675s ]
+SQL: SELECT * FROM `translog` ORDER BY tdate desc  [ RunTime:0.000388s ]
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000509s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000130s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 38 行.
+NOTIC: [8] Undefined index: fid /home/wwwroot/default/wangpan/APP/Lib/Action/IndexAction.class.php 第 41 行.
+SQL: SHOW COLUMNS FROM `fileinfo` [ RunTime:0.000696s ]
+SQL: SELECT * FROM `fileinfo` WHERE ( fpid=1 )  [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 364 行.
+NOTIC: [8] Undefined index: fpath /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 381 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 448 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 479 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 487 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 569 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 600 行.
+NOTIC: [8] Undefined variable: target /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 608 行.
+NOTIC: [8] Undefined index: zhuancunFlag /home/wwwroot/default/wangpan/APP/Runtime/Cache/e5b19ddd3d471b21bbda02c5e4185b4b.php 第 793 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022600s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001158s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000308s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000105s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002126s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000389s ]
+

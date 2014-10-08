@@ -1,0 +1,101 @@
+<!-- 存储容量 -->
+
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">
+    google.load("visualization", "1", {packages:["corechart"]});
+	google.load("visualization", "1", {packages:["treemap"]});
+    google.setOnLoadCallback(cloudDrawChart);
+    google.setOnLoadCallback(localDrawChart);
+  	google.setOnLoadCallback(volumeDrawChart);
+    
+    //容量对比图表
+    function volumeDrawChart() {
+	    // Create and populate the data table.
+	    var data = google.visualization.arrayToDataTable([
+	        ['Location', 'Parent', 'Market trade volume (size)', 'Market increase/decrease (color)'],
+	        ['存储使用总量({$cloudUsed+$localUsed}GB)',	null,		0,	0],
+	        ['云存储使用量({$cloudUsed}GB)',		'存储使用总量({$cloudUsed+$localUsed}GB)',	{$cloudUsed},	100],
+            ['本地存储使用量({$localUsed}GB)',    '存储使用总量({$cloudUsed+$localUsed}GB)', {$localUsed},   0],            
+	    ]);
+
+	    // Create and draw the visualization.
+	    var tree = new google.visualization.TreeMap(document.getElementById('volumeChart'));
+	    tree.draw(data, {
+	        minColor: '#FAC842',
+	        midColor: '#FFFFFF',
+	        maxColor: '#0B9DEC',
+	        headerColor:'#F5F5F5',
+	        headerHeight: 20,
+	        textStyle: {	color: 'black', 
+	          				bold: true,
+	          				fontSize: 14},
+	        showScale: false
+	    });
+    }
+
+    //云存储容量图表
+    function cloudDrawChart() {
+    	//图表数据
+        var data = google.visualization.arrayToDataTable([
+        	['Task', '比率'],
+        	['已使用/GB',    {$cloudUsed}],
+        	['未使用/GB',    {$cloudTotal}-{$cloudUsed}]
+        ]);
+        //图表选项
+        var options = {
+        	// 标题
+          	title: '云存储',
+          	titleTextStyle: {	color: 'black', 
+	          				bold: true,
+	          				fontSize: 14},
+	        colors: ['#0B9DEC','#61BFA4'],
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('cloudPieChart'));
+        chart.draw(data, options);
+    }
+
+    //本地容量图表
+    function localDrawChart() {
+    	//图表数据
+        var data = google.visualization.arrayToDataTable([
+        	['Task', '比率'],
+        	['已使用/GB',    {$localUsed}],
+        	['未使用/GB',    {$localTotal}-{$localUsed}]
+        ]);
+        //图表选项
+        var options = {
+        	// 标题
+          	title: '本地存储',
+          	titleTextStyle: {	color: 'black', 
+	          				bold: true,
+	          				fontSize: 14},
+	        colors: ['#FAC842','#61BFA4'],
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('localPieChart'));
+        chart.draw(data, options);
+    }
+
+</script>
+
+<table style="margin-left: auto; margin-right: auto;" >
+<tbody>
+    <tr>
+        <td>&nbsp;</td>
+    </tr>
+	<tr>
+		<td colspan="2">
+			<div id="volumeChart" style="display: block; margin-left: auto; margin-right: auto; width: 800px; height: 65px;"></div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div id="cloudPieChart" style="display: block; margin-left: auto; margin-right: 0; width: 400px; height: 400px;"></div>
+		</td>
+		<td>
+			<div id="localPieChart" style="display: block; margin-left: 0; margin-right: auto; width: 400px; height: 400px;"></div>
+		</td>
+	</tr>
+</tbody>
+</table>

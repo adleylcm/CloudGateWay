@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="layout-2">
+<head>
+	<include file="./Public/_header.html" />
+	<script type="text/javascript">
+		function date2str(x,y) {
+    		var z ={y:x.getFullYear(),M:x.getMonth()+1,d:x.getDate(),h:x.getHours(),m:x.getMinutes(),s:x.getSeconds()};
+    		return y.replace(/(y+|M+|d+|h+|m+|s+)/g,function(v) {return ((v.length>1?"0":"")+eval('z.'+v.slice(-1))).slice(-(v.length>2?v.length:2))});
+		}
+
+		function sAlert(obj_fid,obj_fname,obj_fpath,obj_fpid,obj_fstatus,obj_ftype,obj_fdev,obj_fino,obj_fmode,obj_fnlinks,obj_fuid,obj_fgid,obj_frdev,obj_fsize,obj_dsize,obj_faddr,obj_fgen,obj_atime,obj_mtime,obj_ctime){
+			var msgw,msgh,bordercolor;
+			msgw=400;//提示窗口的宽度
+			msgh=410;//提示窗口的高度
+			titleheight=25 //提示窗口标题高度
+			bordercolor="#009000";//提示窗口的边框颜色
+			//titlecolor="#c51100";//提示窗口的标题颜色
+			
+			var sWidth,sHeight;
+			sWidth=screen.width;
+			sHeight=screen.height;
+		
+			var bgObj=document.createElement("div");
+			bgObj.setAttribute('id','bgDiv');
+			bgObj.style.position="absolute";
+			bgObj.style.top="0";
+			bgObj.style.background="#cccccc";
+			bgObj.style.filter="progid:DXImageTransform.Microsoft.Alpha(style=3,opacity=25,finishOpacity=75";
+			bgObj.style.opacity="0.6";
+			bgObj.style.left="0";
+			bgObj.style.width=sWidth + "px";
+			bgObj.style.height=sHeight + "px";
+			bgObj.style.zIndex = "10000";
+			document.body.appendChild(bgObj);
+
+			var msgObj=document.createElement("div")
+			msgObj.setAttribute("id","msgDiv");
+			msgObj.setAttribute("align","center");
+			msgObj.style.background="white";
+			msgObj.style.border="1px solid " + bordercolor;
+			msgObj.style.position = "absolute";
+			msgObj.style.left = "50%";
+			msgObj.style.top = "25%";
+			msgObj.style.font="12px/1.6em Verdana, Geneva, Arial, Helvetica, sans-serif";
+			msgObj.style.marginLeft = "-225px" ;
+			msgObj.style.marginTop = -75+document.documentElement.scrollTop+"px";
+			msgObj.style.width = msgw + "px";
+			msgObj.style.height =msgh + "px";
+			msgObj.style.textAlign = "center";
+			msgObj.style.lineHeight ="25px";
+			msgObj.style.zIndex = "10001";
+
+			var title=document.createElement("h4");
+			title.setAttribute("id","msgTitle");
+			title.setAttribute("align","right");
+			title.style.margin="0";
+			title.style.padding="3px";
+			title.style.background=bordercolor;
+			title.style.filter="progid:DXImageTransform.Microsoft.Alpha(startX=20, startY=20, finishX=100, finishY=100,style=1,opacity=75,finishOpacity=100);";
+			title.style.opacity="0.75";
+			title.style.border="1px solid " + bordercolor;
+			title.style.height="18px";
+			title.style.font="12px Verdana, Geneva, Arial, Helvetica, sans-serif";
+			title.style.color="white";
+			title.style.cursor="pointer";
+			title.innerHTML="关闭";
+			
+			title.onclick=function(){
+				document.body.removeChild(bgObj);
+				document.getElementById("msgDiv").removeChild(title);
+				document.body.removeChild(msgObj);
+			}
+
+			document.body.appendChild(msgObj);
+			document.getElementById("msgDiv").appendChild(title);
+			var txt=document.createElement("p");
+			txt.style.margin="1em 0"
+			txt.setAttribute("id","msgTxt");
+			//txt.innerHTML=obj_fid+"<br />"+obj_atime;
+			
+			var tmp_status;
+			switch(obj_fstatus){
+				case 'l':tmp_status='本地';break;
+				case 'k':tmp_status='使用中';break;
+				case 'c':tmp_status='云';break;
+				case 'b':tmp_status='本地 & 云';break;
+			}
+			
+			var tmp_type;
+			if(obj_ftype == 'd'){
+				tmp_type='目录';
+				tmp_status='本地 | 云';
+			}else{
+				tmp_type='文件';
+			}
+			var unixATimestamp = new Date(obj_atime * 1000);
+			var unixMTimestamp = new Date(obj_mtime * 1000);
+			var unixCTimestamp = new Date(obj_ctime * 1000);
+			var ATime = date2str(unixATimestamp, "yy/M/d h:m:s");
+			var MTime = date2str(unixMTimestamp, "yy/M/d h:m:s");
+			var CTime = date2str(unixCTimestamp, "yy/M/d h:m:s");
+			txt.innerHTML="<table><tr><td style='text-align:right'>文件ID</td><td>"+obj_fid+"</td></tr><tr><td style='text-align:right'>父节点ID</td><td>"+obj_fpid+"</td></tr><tr><td style='text-align:right'>文件(夹)名</td><td>"+obj_fname+"</td></tr><tr><td style='text-align:right'>路径</td><td>"+obj_fpath+"</td></tr><tr><td style='text-align:right'>文件位置</td><td>"+tmp_status+"</td></tr><tr><td style='text-align:right'>文件类型</td><td>"+tmp_type+"</td></tr><tr><td style='text-align:right'>链接数</td><td>"+obj_fnlinks+"</td></tr><tr><td style='text-align:right'>文件uid</td><td>"+obj_fuid+"</td></tr><tr><td style='text-align:right'>文件gid</td><td>"+obj_fgid+"</td></tr><tr><td style='text-align:right'>文件大小(字节)</td><td>"+obj_fsize+"</td></tr><tr><td style='text-align:right'>占用磁盘大小(字节)</td><td>"+obj_dsize+"</td></tr><tr><td style='text-align:right'>最后访问时间</td><td>"+ATime+"</td></tr><tr><td style='text-align:right'>最后修改时间</td><td>"+MTime+"</td></tr><tr><td style='text-align:right'>最后改变时间</td><td>"+CTime+"</td></tr></table>";
+
+			document.getElementById("msgDiv").appendChild(txt);
+		}
+
+		function showDetail_(obj_fid,obj_fname,obj_fpath,obj_fpid,obj_fstatus,obj_ftype,obj_fdev,obj_fino,obj_fmode,obj_fnlinks,obj_fuid,obj_fgid,obj_frdev,obj_fsize,obj_dsize,obj_faddr,obj_fgen,obj_atime,obj_mtime,obj_ctime){
+			alert("xx\n"+obj_mtime);
+		}
+		
+		function backBtn()
+		{
+		    alert($_GET["fpath"]);
+			if(!$_GET["fpath"]){
+		        alert('123');
+		        document.getElementById("back").setAttribute("class","btn back btn_disable btnDis");
+		        document.getElementById("back").setAttribute("onclick","");
+		    };
+		}
+	</script>
+</head>
+
+
+<body draggable="false">
+	<include file="./Public/_logo.html" />
+
+<div class="Bdy">
+
+	<div class="aside" id="aside">
+		<ul class="nav">
+			<li><a data-ca="aside-files" href="./Index.php" class="all-file selected"><b>存储管理</b></a>
+			</li>
+            <li><a data-ca="aside-apps" href="./SystemConf.php" class="apps"><b>系统设置</b></a>
+			</li>
+            <li><a data-ca="aside-outlink" href="./StatAnal.php" class="link"><b>统计分析</b></a>
+		    </li>      
+	</div>
+	
+	<div id="mainer" class="noSelect loading2">
+		<div id="filemangebox" class="main dn" style="display: block;">
+			<div class="maint">
+				<div class="mainH operatebar" id="file-operatebar">
+					<!--
+                    <ul class="operate operate-group">
+						<li class="operate">
+                        <button title="返回" id="back" class="btn back" onclick="self.history.back()" style="cursor: pointer;">
+                        <i class="i"></i>
+                        </button>
+                        </li>                
+                    </ul>
+                    -->
+				</div>
+ 
+<!--				<div class="mainH2 search-bar" id="file-search-bar">
+					<div class="path" id="file-path">
+                    <li class="root-dir">当前路径：
+                    <?php
+                    if ($_GET["fpath"]) {echo $_GET["fpath"];}
+                    else {echo "/home/gateway/nfsdir";}
+                     ?></li>
+                    </div>
+				</div>
+                -->
+
+			</div>
+
+			<div class="content" style="">
+				<div class="mainH2 search-bar" id="file-search-bar">
+                    <ul class="operate operate-group">
+						<li class="operate">
+                        <button title="返回" id="back" class="btn back" onclick="self.history.back()" style="cursor: pointer;">
+                        <i class="i"></i>
+                        </button>
+                        &nbsp;当前路径：
+                        <?php
+                    if ($_GET["fpath"]) {echo $_GET["fpath"];}
+                    else {echo "/home/gateway/nfsdir";}
+                     ?>
+                        </li>                                   
+                    </ul>
+				</div>
+                
+				<div class="list-view" id="file-list">
+					<table class="tbl">
+						<thead>
+							<tr>
+								<th class="col_cbox">
+								</th><th class="col_fname name">文件名
+								</th><th class="col_date">文件位置
+								</th><th class="col_fsize size">大小
+								</th><th class="col_ftype size">类型
+								</th><th class="col_date date">修改日期
+								</th><th class="col_date">操作
+						</th></tr>
+                        </thead>
+                        <tbody id="bodycontent" class="list-data-container">
+                        
+                        <foreach name='fileinfo' item='v'>
+                        
+                        
+<script type="text/javascript">
+//生成文件夹显示模块js代码，采用Js DOM 对象处理，http://www.w3school.com.cn/htmldom/index.asp
+var paratr=document.createElement("tr"); //生成<tr> </tr>标签
+   
+    var paratd1=document.createElement("td");
+        var paratd1span=document.createElement("span");//生成<span>标签，用来组合行内元素
+        paratd1span.setAttribute("class","checkbox");//设置<span>标签属性，生成节点
+        paratd1.appendChild(paratd1span);//把属性节点连接到标签节点中
+    
+    var paratd2=document.createElement("td");
+        paratd2.setAttribute("class","file-name folder-icon");
+        var paratd2i=document.createElement("i");
+		    if("{$v.ftype}" == 'd'){
+			   paratd2i.setAttribute("class","i ifl i21");//文件图标jpg
+		    }else{
+			   paratd2i.setAttribute("class","i ifl i20");
+		    }
+        var paratd2a=document.createElement("a");
+            paratd2a.setAttribute("data-ca","listView-see-folder");
+            if("{$v.ftype}" == 'd'){
+				paratd2a.setAttribute("href","http://192.168.3.6/wangpan/Index.php?fid={$v.fid}&fpath={$v.fpath}");//打开下一级目录标签
+			}
+
+            paratd2a.setAttribute("class","name");
+            paratd2a.setAttribute("title","{$v.fname}");//文件名显示
+            var paratd2anode=document.createTextNode("{$v.fname}");
+            paratd2a.appendChild(paratd2anode);
+            
+//        var paratd2input=document.createElement("input");
+//            paratd2input.setAttribute("type","text");
+//            paratd2input.setAttribute("value","{$v.fname}");
+//            paratd2input.setAttribute("class","txt rename-file-input");
+        paratd2.appendChild(paratd2i);
+        paratd2.appendChild(paratd2a);
+//        paratd2.appendChild(paratd2input);
+    
+    var paratd3=document.createElement("td");
+        var paratd3node;//文件状态
+		switch("{$v.fstatus}"){
+			case 'l': paratd3node=document.createTextNode("本地");break;
+			case 'c': paratd3node=document.createTextNode("云");break;
+			case 'b': paratd3node=document.createTextNode("本地 & 云");break;
+			case 'k': paratd3node=document.createTextNode("使用中");break;
+		}
+		if("{$target}" == "{$v.fid}" || "{$v.fstatus}" == 'k')
+			paratd3node=document.createTextNode("使用中");
+		if("{$v.ftype}" == "d")
+			paratd3node=document.createTextNode("本地 | 云");
+		paratd3.appendChild(paratd3node);
+    
+    var paratd4=document.createElement("td");
+        var paratd4node;//文件大小
+		if("{$v.ftype}" == 'd'){
+			paratd4node=document.createTextNode("");
+        }else{
+			paratd4node=document.createTextNode("{$v.fsize}");
+		}
+		paratd4.appendChild(paratd4node);
+    
+    var paratd5=document.createElement("td");
+		var paratd5node;//文件类型
+		if("{$v.ftype}" == 'd'){
+			paratd5node=document.createTextNode("目录");
+		}else{
+			paratd5node=document.createTextNode("文件");
+		}
+        paratd5.appendChild(paratd5node);
+        
+    var paratd6=document.createElement("td");//访问时间
+		var unixTimestamp = new Date({$v.atime}* 1000);
+        var paratd6node=document.createTextNode(date2str(unixTimestamp, "yy/M/d h:m:s"));
+        paratd6.appendChild(paratd6node);
+        
+    var paratd7=document.createElement("td");
+		var paratd7b=document.createElement("button");
+			if("{$target}" == "{$v.fid}" || "{$v.fstatus}" == 'k'){
+				//alert("hold");
+				paratd7b.setAttribute("onclick", "window.location.href='http://192.168.3.6/wangpan/Index.php?fid={$v.fpid}'");
+			}else{
+				paratd7b.setAttribute("onclick", "window.location.href='http://192.168.3.6/wangpan/Index.php?fid={$v.fpid}&fpath={$v.fpath}&fstatus={$v.fstatus}&target={$v.fid}'");
+			}
+			paratd7b.setAttribute("style", "color:blue");
+			var paratd7bnode;
+			if("{$target}" == "{$v.fid}" || "{$v.fstatus}" == 'k'){
+				paratd7bnode=document.createTextNode("刷新");
+			}else{
+				paratd7bnode=document.createTextNode("转存");
+			}
+			paratd7b.appendChild(paratd7bnode);
+
+		var paratd7b2=document.createElement("button");//详细信息
+			//var paratd7b2text={$v.fpath};
+			paratd7b2.setAttribute("onclick", 'sAlert("{$v.fid}","{$v.fname}","{$v.fpath}","{$v.fpid}","{$v.fstatus}","{$v.ftype}","{$v.fdev}","{$v.fino}","{$v.fmode}","{$v.fnlinks}","{$v.fuid}","{$v.fgid}","{$v.frdev}","{$v.fsize}","{$v.dsize}","{$v.faddr}","{$v.fgen}","{$v.atime}","{$v.mtime}","{$v.ctime}")');
+			paratd7b2.setAttribute("title", "详细信息");
+			paratd7b2.setAttribute("style", "color:blue");
+			var paratd7b2node=document.createTextNode("详细信息");
+			paratd7b2.appendChild(paratd7b2node);
+		if("{$v.ftype}" != 'd'){
+			paratd7.appendChild(paratd7b);
+			var paratd7_=document.createTextNode(" | ");
+			paratd7.appendChild(paratd7_);
+		}
+		paratd7.appendChild(paratd7b2);
+		
+		
+		
+    paratr.appendChild(paratd1);
+    paratr.appendChild(paratd2);
+    paratr.appendChild(paratd3);
+    paratr.appendChild(paratd4);
+    paratr.appendChild(paratd5);
+    paratr.appendChild(paratd6);
+	paratr.appendChild(paratd7);
+    
+
+var element=document.getElementById("bodycontent");
+element.appendChild(paratr);
+</script>
+
+<script type="text/javascript">
+//返回BUTTON
+//alert('345');
+//alert($_GET["fpath"]);
+//if(!$_GET["fpath"]){
+//        alert('123');
+//        document.getElementById("back").setAttribute("class","btn back btn_disable btnDis");
+//        document.getElementById("back").setAttribute("onclick","");
+//        };
+</script>
+
+
+                            </foreach>                           
+                        </tr>
+                            </tbody>                            
+                     </table>
+				</div>
+	    	</div>
+		</div>
+    </div>
+</div>
+<!--<script type="text/javascript">backBtn()</script> -->
+<!--
+<script data-main="//j2.s.ksyun.com/pan/v1.1/1378294456726/app/home/main" src="./Public/2.1.8.js" type="text/javascript"></script>
+-->
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+				<div class="list-view" id="file-list">
+					<table class="tbl">
+						<thead>
+							<tr>
+								<th class="col_cbox">
+								</th><th class="col_fsize_r">文件名
+								</th><th class="col_fsize">文件大小/字节
+								</th><th class="col_fsize">转存方向
+								</th><th class="col_fsize">转存耗时
+								</th><th class="col_fsize">转存时间
+								</th><th class="col_fsize">转存方式
+                                </th><th class="col_fsize">文件路径
+						</th></tr>
+                        </thead>
+                        <tbody id="bodycontent" class="list-data-container">
+                        <volist name="log" id="vo">
+                          <tr>
+                              <td></td>
+                              <td>{$vo.tfname}</td>
+                              <td>{$vo.tfsize}</td>
+                              <td><?php echo(($vo["tmethod"]) == 'u'? '本地->云端' : '云端->本地')?></td>
+                              <td>{$vo.time}</td>
+                              <td>{$vo.tdate}</td>
+                              <td><?php echo($vo["tstrategy"]) == 's'? '手动' : '自动'?></td>
+                              <td>{$vo.tpath}</td>
+                          </tr>
+                        </volist>
+                                                 
+                        </tr>
+                            </tbody>                            
+                     </table>
+				</div>

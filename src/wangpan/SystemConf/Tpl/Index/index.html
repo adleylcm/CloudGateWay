@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="layout-2">
+
+<head>
+	<include file="./Public/_header.html" />
+	<!-- <link href="./Public/login.css" rel="stylesheet" type="text/css"> -->
+	<script type="text/javascript">
+ 		//处理不同视图切换函数
+		function divselect(num){
+	        switch (num){
+		         case 1 : 
+		     //         document.getElementById("contentdiv1").style.display="block";//可见性设置
+		             document.getElementById("contentdiv2").style.display="none";
+		             document.getElementById("contentdiv3").style.display="none";
+		     //        document.getElementById("tab1").className="tab cur";//标签亮度设置
+		             document.getElementById("tab2").className="tab";
+		             document.getElementById("tab3").className="tab";
+	           //      document.getElementById("taba1").setAttribute("style","cursor: default;");//移到页面切换标签上时显示鼠标或手指
+	                 document.getElementById("taba2").setAttribute("style","cursor: pointer;");
+	                 document.getElementById("taba3").setAttribute("style","cursor: pointer;");
+	                 break;
+		        case 2 : 
+	      //            document.getElementById("contentdiv1").style.display="none";
+	                 document.getElementById("contentdiv2").style.display="block";
+	                 document.getElementById("contentdiv3").style.display="none";
+	      //            document.getElementById("tab1").className="tab";
+	                 document.getElementById("tab2").className="tab cur";
+	                 document.getElementById("tab3").className="tab";
+          //            document.getElementById("taba1").setAttribute("style","cursor: pointer;");
+                     document.getElementById("taba2").setAttribute("style","cursor: default;");
+                     document.getElementById("taba3").setAttribute("style","cursor: pointer;");
+	                 break;
+		        case 3 : 
+	     //             document.getElementById("contentdiv1").style.display="none";
+	                 document.getElementById("contentdiv2").style.display="none";
+	                 document.getElementById("contentdiv3").style.display="block";
+	     //             document.getElementById("tab1").className="tab";
+	                 document.getElementById("tab2").className="tab";
+	                 document.getElementById("tab3").className="tab cur";
+          //            document.getElementById("taba1").setAttribute("style","cursor: pointer;");
+                     document.getElementById("taba2").setAttribute("style","cursor: pointer;");
+                     document.getElementById("taba3").setAttribute("style","cursor: default;");
+	                 break;
+		        default : break;
+		    }
+		}
+
+		function actionSubmitNfsConf(){
+       //      document.getElementById("contentdiv1").style.display="none";
+            document.getElementById("contentdiv2").style.display="none";
+            document.getElementById("contentdiv3").style.display="block";
+      //       document.getElementById("tab1").className="tab";
+            document.getElementById("tab2").className="tab";
+            document.getElementById("tab3").className="tab cur"; 
+    	}
+
+    	//提示窗
+		function pAlert(num){
+			var msgw,msgh,bordercolor;
+			msgw=400;//提示窗口的宽度
+			msgh=80;//提示窗口的高度
+			titleheight=25 //提示窗口标题高度
+			bordercolor="#009000";//提示窗口的边框颜色
+			//titlecolor="#c51100";//提示窗口的标题颜色
+
+			var sWidth,sHeight;
+			sWidth=screen.width;
+			sHeight=screen.height;
+
+			var bgObj=document.createElement("div");
+			bgObj.setAttribute('id','bgDiv');
+			bgObj.style.position="absolute";
+			bgObj.style.top="0";
+			bgObj.style.background="#cccccc";
+			bgObj.style.filter="progid:DXImageTransform.Microsoft.Alpha(style=3,opacity=25,finishOpacity=75";
+			bgObj.style.opacity="0.6";
+			bgObj.style.left="0";
+			bgObj.style.width=sWidth + "px";
+			bgObj.style.height=sHeight + "px";
+			bgObj.style.zIndex = "10000";
+			document.body.appendChild(bgObj);
+
+			var msgObj=document.createElement("div")
+			msgObj.setAttribute("id","msgDiv");
+			msgObj.setAttribute("align","center");
+			msgObj.style.background="white";
+			msgObj.style.border="1px solid " + bordercolor;
+			msgObj.style.position = "absolute";
+			msgObj.style.left = "50%";
+			msgObj.style.top = "50%";
+			msgObj.style.font="12px/1.6em Verdana, Geneva, Arial, Helvetica, sans-serif";
+			msgObj.style.marginLeft = "-225px" ;
+			msgObj.style.marginTop = -75+document.documentElement.scrollTop+"px";
+			msgObj.style.width = msgw + "px";
+			msgObj.style.height =msgh + "px";
+			msgObj.style.textAlign = "center";
+			msgObj.style.lineHeight ="25px";
+			msgObj.style.zIndex = "10001";
+
+			var title=document.createElement("h4");
+			title.setAttribute("id","msgTitle");
+			title.setAttribute("align","right");
+			title.style.margin="0";
+			title.style.padding="3px";
+			title.style.background=bordercolor;
+			title.style.filter="progid:DXImageTransform.Microsoft.Alpha(startX=20, startY=20, finishX=100, finishY=100,style=1,opacity=75,finishOpacity=100);";
+			title.style.opacity="0.75";
+			title.style.border="1px solid " + bordercolor;
+			title.style.height="18px";
+			title.style.font="12px Verdana, Geneva, Arial, Helvetica, sans-serif";
+			title.style.color="white";
+			title.style.cursor="pointer";
+			title.innerHTML="关闭";
+			title.onclick=function(){
+				document.body.removeChild(bgObj);
+				document.getElementById("msgDiv").removeChild(title);
+				document.body.removeChild(msgObj);
+			}
+			document.body.appendChild(msgObj);
+			document.getElementById("msgDiv").appendChild(title);
+			var txt=document.createElement("p");
+			txt.style.margin="1em 0"
+			txt.setAttribute("id","msgTxt");
+			//txt.innerHTML=obj_fid+"<br />"+obj_atime;
+            switch(num)
+            {
+               case 2 : txt.innerHTML="修改成功!";break;
+               case 3 : txt.innerHTML="修改成功!";break;
+               case 4 : txt.innerHTML="该云存储账号不存在，请重新输入!";break;
+               default :break;
+            }
+			//txt.innerHTML="修改成功!";
+
+			document.getElementById("msgDiv").appendChild(txt);
+            switch(num)
+            {
+                case 2 : divselect(2);break;
+                case 3 : divselect(3);break;
+                case 4 : divselect(2);break;
+                default : break;
+            }
+			//divselect(3);
+            //$("#form1").submit();
+		}
+//        function checkBoxLoad()
+//        {   
+//            if ({$flagsize0} == 1)
+//            {
+//               document.getElementById("policyfsize").checked = true; 
+//            }
+//            if ({$flagtype0} == 1)
+//            {
+//               document.getElementById("policyftype").checked = true; 
+//            }
+//            if ({$flagexpires0} == 1)
+//            {
+//               document.getElementById("policyexpires").checked = true; 
+//            }
+//            if ({$flagfreq0} == 1)
+//            {
+//               document.getElementById("policyfreq").checked = true; 
+//            }
+//        }
+       // function checkBoxSubmit()
+//        {
+//            
+//        }
+	</script>
+</head>
+<body draggable="false">
+	<include file="./Public/_logo.html" />
+
+	<div class="Bdy">
+		<include file="./SystemConf/Tpl/Index/aside.html" />
+		
+		<div id="mainer" class="noSelect loading2">               
+			<div id="filemangebox" class="main dn" style="display: block;">
+				<div class="maint" style="display: block;">
+					<div class="mainH operatebar">
+						<div class="Tab">
+							<ul class="tabs">
+           						<!-- 处理不同视图切换标签-->
+					<!--			<li id="tab1" class="tab cur"><a id="taba1" onclick="divselect(1)" style="cursor: default;">转存策略</a> -->
+								<li id="tab2" class="tab cur"><a id="taba2" onclick="divselect(2)" style="cursor: default;">云存储账号</a>
+	                            <li id="tab3" class="tab"><a id="taba3" onclick="divselect(3)" style="cursor: pointer;">NFS配置</a>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="content" style="display: block;">
+            	 	    	
+ <!--				  <div id="contentdiv1" style="display: block">
+				  	<include file="./SystemConf/Tpl/Index/content1Policy.html" />
+		    	  </div> -->
+
+				  <div id="contentdiv2" style="display:block">
+				  	<include file="./SystemConf/Tpl/Index/content2Account.html" />
+		    	  </div>
+
+				  <div id="contentdiv3" style="display:none">
+				  	<include file="./SystemConf/Tpl/Index/content3NfsConf.html" />
+				  </div>
+                              
+	            </div>
+			</div>
+	    </div>
+	</div>
+<!--    <script type="text/javascript">checkBoxLoad()</script> -->
+	<script data-main="//j2.s.ksyun.com/pan/v1.1/1378294456726/app/home/main" src="./Public/2.1.8.js" type="text/javascript"></script>
+	</body>
+</html>

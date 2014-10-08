@@ -1,0 +1,336 @@
+[ 2013-11-06T10:17:29+08:00 ] 192.168.3.139 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000628s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000387s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000342s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000131s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000191s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000310s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2013-11-06T11:51:03+08:00 ] 192.168.3.228 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000557s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000384s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000139s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000339s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000128s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013623s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000280s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000319s ]
+
+[ 2013-11-06T15:24:38+08:00 ] 192.168.3.228 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000514s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000122s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000381s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000335s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013735s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000227s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000175s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000230s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000289s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2013-11-06T15:28:21+08:00 ] 192.168.3.228 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000383s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000347s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013698s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000232s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000177s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000103s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2013-11-06T15:28:24+08:00 ] 192.168.3.228 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000557s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000383s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000351s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013778s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013832s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000233s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000175s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2013-11-06T15:28:25+08:00 ] 192.168.3.228 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000566s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000129s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000383s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000336s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013665s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2013-11-06T15:28:29+08:00 ] 192.168.3.228 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000511s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000121s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000382s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000336s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000226s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2013-11-06T15:28:46+08:00 ] 192.168.3.139 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000565s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000382s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000336s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013722s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000216s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2013-11-06T15:28:49+08:00 ] 192.168.3.139 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000598s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000405s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000335s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000124s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013879s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000225s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000287s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2013-11-06T15:28:51+08:00 ] 192.168.3.228 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000579s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000388s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000336s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013610s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000229s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000285s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2013-11-06T15:29:59+08:00 ] 192.168.3.139 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000600s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000384s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000334s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013650s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000227s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2013-11-06T15:52:14+08:00 ] 192.168.3.139 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000629s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000405s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000359s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000222s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000175s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000842s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2013-11-06T15:52:15+08:00 ] 192.168.3.139 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000604s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000131s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000386s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000176s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000335s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000125s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014019s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000221s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000187s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000330s ]
+
+[ 2013-11-06T16:54:55+08:00 ] 192.168.3.25 /wangpan/StatAnal.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `analyse` [ RunTime:0.000564s ]
+SQL: SELECT * FROM `analyse` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000130s ]
+SQL: SHOW COLUMNS FROM `translog` [ RunTime:0.000385s ]
+SQL: SELECT * FROM `translog`  [ RunTime:0.000206s ]
+SQL: SHOW COLUMNS FROM `frequency` [ RunTime:0.000337s ]
+SQL: select * from frequency order by date desc limit 0,14 [ RunTime:0.000123s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000244s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000176s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000322s ]
+

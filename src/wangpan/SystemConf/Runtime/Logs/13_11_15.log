@@ -1,0 +1,681 @@
+[ 2013-11-15T09:30:50+08:00 ] 192.168.3.139 /wangpan/SystemConf.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000753s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/SystemConf/Lib/Action/IndexAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007991s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008037s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2013-11-15T09:32:02+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000735s ]
+SQL: UPDATE `policy` SET `ipaddr`='192.168.3.9:5000/v2.0',`user`='swift',`passwd`='111111' WHERE ( `id` = '0' ) [ RunTime:0.000170s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:32:02+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000728s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000179s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000287s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2013-11-15T09:35:50+08:00 ] 192.168.3.228 /wangpan/SystemConf.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000811s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/SystemConf/Lib/Action/IndexAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007965s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2013-11-15T09:46:27+08:00 ] 192.168.3.228 /wangpan/SystemConf.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000834s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/SystemConf/Lib/Action/IndexAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008067s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2013-11-15T09:46:30+08:00 ] 192.168.3.228 /wangpan/SystemConf.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000334s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000813s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000154s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/SystemConf/Lib/Action/IndexAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008093s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000179s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000287s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000327s ]
+
+[ 2013-11-15T09:46:31+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000815s ]
+SQL: UPDATE `policy` SET `ipaddr`='192.168.3.9:5000/v2.0',`user`='swift',`passwd`='111111' WHERE ( `id` = '0' ) [ RunTime:0.000177s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:46:31+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000836s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008261s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000181s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000289s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2013-11-15T09:46:34+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000809s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:46:34+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000829s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000176s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000286s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2013-11-15T09:46:37+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000815s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:46:37+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000809s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008080s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000189s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000286s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2013-11-15T09:46:41+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000818s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:46:41+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000322s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000810s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000152s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000110s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000784s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000287s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2013-11-15T09:46:53+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?m=Index&a=confModify3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:46:54+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000818s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000155s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008062s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000177s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000771s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000286s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000326s ]
+
+[ 2013-11-15T09:47:13+08:00 ] 192.168.3.139 /wangpan/SystemConf.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000755s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/SystemConf/Lib/Action/IndexAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008053s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2013-11-15T09:47:16+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000754s ]
+SQL: UPDATE `policy` SET `ipaddr`='192.168.3.9:5000/v2.0',`user`='swift',`passwd`='111111' WHERE ( `id` = '0' ) [ RunTime:0.000175s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:47:16+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000752s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008055s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000167s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2013-11-15T09:47:19+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000750s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:47:19+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000725s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008020s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000300s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2013-11-15T09:48:28+08:00 ] 192.168.3.228 /wangpan/SystemConf.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000812s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000183s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/SystemConf/Lib/Action/IndexAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008064s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000291s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2013-11-15T09:48:29+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000807s ]
+SQL: UPDATE `policy` SET `ipaddr`='192.168.3.9:5000/v2.0',`user`='swift',`passwd`='111111' WHERE ( `id` = '0' ) [ RunTime:0.000180s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:48:29+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000806s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008078s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000175s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000165s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000287s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2013-11-15T09:48:33+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000812s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:48:33+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000808s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008235s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008284s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000295s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2013-11-15T09:48:37+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000822s ]
+SQL: UPDATE `policy` SET `ipaddr`='192.168.3.9:5000/v2.0',`user`='swift',`passwd`='111111' WHERE ( `id` = '0' ) [ RunTime:0.000174s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:48:37+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000727s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000148s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008011s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000172s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000301s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000342s ]
+
+[ 2013-11-15T09:48:37+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?m=Index&a=confModify3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:48:38+08:00 ] 192.168.3.228 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000797s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008048s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008094s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000179s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000169s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000289s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000328s ]
+
+[ 2013-11-15T09:48:42+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000899s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:48:42+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000828s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000151s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008258s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000176s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000172s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000102s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000348s ]
+
+[ 2013-11-15T09:49:01+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000763s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T09:49:01+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000719s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000151s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007982s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000173s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000100s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2013-11-15T10:48:23+08:00 ] 192.168.3.139 /wangpan/SystemConf.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000781s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/SystemConf/Lib/Action/IndexAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008038s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2013-11-15T10:48:38+08:00 ] 192.168.3.139 /wangpan/SystemConf.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000765s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: pconfAlert /home/wwwroot/default/wangpan/SystemConf/Lib/Action/IndexAction.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008132s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000098s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2013-11-15T10:48:42+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T10:48:42+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000768s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000152s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000173s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000170s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2013-11-15T10:48:45+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000751s ]
+SQL: UPDATE `policy` SET `ipaddr`='192.168.3.9:5000/v2.0',`user`='swift',`passwd`='111111' WHERE ( `id` = '0' ) [ RunTime:0.000171s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T10:48:45+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000722s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008054s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000174s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000318s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2013-11-15T10:48:49+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?m=Index&a=confModify2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000750s ]
+NOTIC: [8] Undefined variable: var /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+NOTIC: [2] http_build_query() [<a href='function.http-build-query'>function.http-build-query</a>]: Parameter 1 expected to be Array or Object.  Incorrect value given /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 247 行.
+
+[ 2013-11-15T10:48:49+08:00 ] 192.168.3.139 /wangpan/SystemConf.php?&m=Index&a=index&pconfAlert=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+SQL: SHOW COLUMNS FROM `policy` [ RunTime:0.000723s ]
+SQL: SELECT * FROM `policy` WHERE ( `id` = 0 ) LIMIT 1   [ RunTime:0.000152s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008050s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000176s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000171s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000099s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000304s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000345s ]
+

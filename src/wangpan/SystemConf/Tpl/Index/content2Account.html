@@ -1,0 +1,57 @@
+<form action="{:U('Index/confModify2')}" method="POST">
+	<table>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="width:50px;"></td>
+	  		<td style="text-align:left; width:90px;">云存储服务地址</td>
+	  		<td style="text-align:left; width:400px;"><input type="text" name="cloudadd" style="text-align:left; width:180px; height:20px; font-size:10pt;" value="{$ipaddr0}"></td>
+	  		<td></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+						
+		<tr>
+			<td ></td>
+			<td style="text-align:left">用户名</td>
+	  		<td style="text-align:left"><input type="text" name="clouduser" style="text-align:left; width:180px; height:20px; font-size:10pt;" value="{$user0}"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td ></td>
+	  		<td style="text-align:left">密码</td>
+	  		<td><input type="password" name="cloudpswd" style="text-align:left; width:180px; height:20px; font-size:10pt;" value="{$passwd0}"></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td></td>
+			<td></td>
+			<td style="text-align:center">
+				<input  class="btn_ql btn_ql-primary" type="submit" name="setup" value="保存">
+	  		</td>
+	  		<td></td>
+		</tr>
+	</table>
+</form>
+<?php if(($pconfAlert0==2)) {
+    ?>
+<script type="text/javascript">pAlert(2);</script>
+<?php
+}?>
+<?php if(($pconfAlert0==4)) {
+    ?>
+<script type="text/javascript">pAlert(4);</script>
+<?php
+}?>

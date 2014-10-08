@@ -1,0 +1,27 @@
+[ 20131127-11-23T00:48:11+08:00 ] 192.168.3.25 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] Connection refused (trying to connect via tcp://127.0.0.1:3306) /home/wwwroot/default/wangpan/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Connection refused /home/wwwroot/default/wangpan/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+ERR: Connection refused
+
+[ 20131127-11-23T00:48:19+08:00 ] 192.168.3.25 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] Connection refused (trying to connect via tcp://127.0.0.1:3306) /home/wwwroot/default/wangpan/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Connection refused /home/wwwroot/default/wangpan/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+ERR: Connection refused
+
+[ 20131127-11-23T00:55:26+08:00 ] 192.168.3.25 /wangpan/Index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/wwwroot/default/wangpan/ThinkPHP/Common/functions.php 第 566 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: [2002] Connection refused (trying to connect via tcp://127.0.0.1:3306) /home/wwwroot/default/wangpan/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Connection refused /home/wwwroot/default/wangpan/ThinkPHP/Lib/Driver/Db/DbMysql.class.php 第 55 行.
+ERR: Connection refused
+

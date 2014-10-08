@@ -1,0 +1,64 @@
+<form action="" method="POST">
+
+
+<table>
+<tbody>
+<tr>
+<td style="width:20px;"></td>
+<td style="width:500px;">
+	<table >
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+		<!-- <tr >
+		  	<td><font color='black'>MySQL数据库管理</font></td>
+		</tr>
+
+		<tr>
+			<td><a href='http://192.168.3.6/phpmyadmin/' target="_blank"><font color='blue'>PHPMyAdmin</font></a></td>
+		</tr> -->
+								  
+ 		<!-- <tr>
+ 			<td><font color='black'>NFS服务器配置</font></td>
+		</tr> -->
+							
+		<tr>
+			<td>
+				<textarea name="conf" cols="70" id ="1" rows="10"><?php
+					$res = 0;
+					if(empty($_POST['setupnfs'])){
+						$fileconf=file("/etc/exports");
+						foreach($fileconf as $line=> $content){
+							echo $content;		
+						}
+					}else{
+						$res = file_put_contents('/etc/exports', $_POST['conf']);
+						$fileconf=file("/etc/exports");
+						foreach($fileconf as $line=> $content){
+							echo $content;		
+						}
+					}
+				?></textarea>
+				<?php 
+					if(($pconfAlert0 == 3)){?>
+					<script type="text/javascript">pAlert(3);</script>
+				<?php }?>
+				<br />
+			</td>
+		</tr>
+
+		<tr>
+			<td>&nbsp;</td>
+		</tr>
+
+		<tr>
+			<td style="text-align:center;">
+				<input class="btn_ql btn_ql-primary " type="submit" name="setupnfs" value="保存"/>	
+			</td>		
+		</tr>
+	</table>
+</td>
+</tr>
+</tbody>
+</table>
+</form>
